@@ -224,6 +224,7 @@ body {
 
     .banner-section {
         flex-direction: column;
+        overflow-y: hidden;
     }
 
     .banner-text {
