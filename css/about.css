@@ -94,6 +94,10 @@ body {
 .about-section {
     height: 100%;
     border-top: 1px solid #ffffff20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
