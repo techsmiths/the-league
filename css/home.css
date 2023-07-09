@@ -18,13 +18,14 @@ html, body {
 
 body {
     background-color: #1C2135;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation_bar {
     width: 100%;
     height: max-content;
     background-color: #21293E;
-    border-bottom: 1px solid #ffffff20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +78,30 @@ body {
     background-position: 0 100%;
 }
 
+.main-content {
+    flex: 1;
+    overflow-y: scroll;
+    background-color: #21293E;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
+
+
+.banner-section {
+    height: 100%;
+    display: flex;
+}
+
+.banner-text {
+    flex: 1;
+}
+.banner-image {
+    flex: 1;
+}
 /* media query for mobile devices */
 
 @media only screen and (max-width: 756px) {
@@ -102,6 +127,18 @@ body {
 
     .navigation_links_container a {
         font-size: 16px;
+    }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        flex: 1;
+    }
+
+    .banner-image {
+        flex: unset;
     }
 
 
