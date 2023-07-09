@@ -107,7 +107,7 @@ body {
     gap: 20px;
 }
 .banner-text h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
 .banner-text p {
@@ -160,7 +160,7 @@ body {
     }
 
     .banner-text h1 {
-        font-size: 22px;
+        font-size: 25px;
     }
     .banner-text p {
         font-size: 18px;
