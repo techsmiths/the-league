@@ -181,6 +181,7 @@ body {
 .feature h2 {
     font-size: 26px;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
 .feature img {
