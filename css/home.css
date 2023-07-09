@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +69,10 @@ body {
 
 
 #active-link {
-    text-decoration: underline;
+    background-image: linear-gradient(to right, #ff0000, #8f00ff);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
 }
 
 /* media query for mobile devices */
