@@ -17,6 +17,8 @@ html, body {
 
 body {
     background-color: #1C2135;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation_bar {
@@ -75,6 +77,69 @@ body {
     background-position: 0 100%;
 }
 
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: #21293E;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
+
+
+.patron-section {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patron-table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #1C2135;
+    color: white;
+    border: 1px solid #f5f5f520;
+}
+
+.patron-table th,
+.patron-table td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+    border-top: 1px solid #f5f5f520;
+    border-right: 1px solid #f5f5f520;
+}
+
+
+
+
+#patron-table th,
+#patron-table td {
+    padding: 10px;
+}
+
+#patron-table th {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+#patron-table td {
+    word-break: break-all;
+    font-size: 20px;
+
+}
+
+
 /* media query for mobile devices */
 
 @media only screen and (max-width: 756px) {
@@ -100,6 +165,18 @@ body {
 
     .navigation_links_container a {
         font-size: 16px;
+    }
+
+    .patron-table {
+        width: auto;
+    }
+
+    #patron-table th {
+        font-size: 16px;
+    }
+
+    #patron-table td {
+        font-size: 14px;
     }
 
 
