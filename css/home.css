@@ -162,7 +162,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -199,6 +199,11 @@ body {
     justify-content: center;
     color: transparent;
 }
+
+
+
+
+
 
 /* media query for mobile devices */
 
@@ -286,11 +291,6 @@ body {
     .feature p {
         font-size: 16px;
     }
-
-
-
-
-
 
 
 }
