@@ -151,7 +151,6 @@ body {
 }
 
 .features-section h1 {
-    margin-top: 20px;
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -163,7 +162,6 @@ body {
     gap: 20px;
     padding: 20px;
     width: 60%;
-    margin: auto;
 }
 
 .feature {
