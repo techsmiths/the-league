@@ -169,7 +169,7 @@ body {
 .feature {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 50px;
@@ -192,8 +192,14 @@ body {
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
+    display: flex;
 }
 
+.feature a {
+    display: flex;
+    justify-content: center;
+    color: transparent;
+}
 
 /* media query for mobile devices */
 
