@@ -102,7 +102,6 @@ body {
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 20px;
 }
@@ -112,6 +111,18 @@ body {
 }
 .banner-text p {
     font-size: 20px;
+}
+
+.explore-button {
+    background-image: linear-gradient(to right, #ff0000, #8f00ff);
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
 }
 .banner-image {
     flex: 1;
@@ -123,6 +134,7 @@ body {
 .banner-image img {
     width: 80%;
 }
+
 
 /* media query for mobile devices */
 
@@ -157,6 +169,7 @@ body {
 
     .banner-text {
         flex: unset;
+        align-items: center;
     }
 
     .banner-text h1 {
@@ -165,13 +178,17 @@ body {
     .banner-text p {
         font-size: 18px;
     }
+
+    .explore-button {
+        font-size: 20px;
+    }
     
     .banner-image {
         flex: 1;
     }
 
     .banner-image img {
-        width: 80%;
+        width: 70%;
     }
 
 
