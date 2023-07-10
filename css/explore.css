@@ -165,6 +165,79 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
+}
+
+.seminars-section > h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.seminars {
+
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.seminars::-webkit-scrollbar {
+    display: none;
+}
+
+.seminar {
+    min-width: 33.33%;
+    background-color: #1C2135;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.seminar h2 {
+    text-align: center;
+}
+
+.seminar img {
+    width: 30%;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tags p {
+    width: max-content;
+    background-image: linear-gradient(to right, #ff0000, #8f00ff);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.seminar p { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seminar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #ff0000, #8f00ff);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
 
 
@@ -221,5 +294,29 @@ body {
         height: 80%;
     }
 
+    .seminars-section > h1 {
+        font-size: 25px;
+    }
+
+    .seminar {
+        min-width: 100%;        
+    }
+
+    .seminar img {
+        width: 50%;
+    }
+
+    .seminar h2 {
+        margin-bottom: 20px;
+    }
+
+    .tags{
+        flex-direction: column;
+    }
+    .tags p {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
