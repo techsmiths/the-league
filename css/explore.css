@@ -436,6 +436,10 @@ body {
         margin-bottom: 20px;
     }
 
+    .mentors-section {
+        padding: 10px;
+    }
+
     .mentors-section>h1 {
         font-size: 25px;
     }
