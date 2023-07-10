@@ -340,6 +340,17 @@ body {
     border-radius: 10px; 
 }
 
+.mentor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mentor a {
+    color: #3f78c2;
+    font-size: 20px;
+}
+
 
 /* media query for mobile devices */
 
@@ -453,7 +464,8 @@ body {
     }
 
     .mentor img {
-        width: 50%;
+        height: 70px;
+        width: 70px;
     }
 
     .mentor h2 {
