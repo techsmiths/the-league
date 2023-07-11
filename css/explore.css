@@ -212,7 +212,6 @@ body {
 }
 
 .tags p {
-    /* background-image: linear-gradient(to right, #ff0000, #8f00ff); */
     border: 1px solid #ffffff60;
     padding: 5px 10px;
     border-radius: 10px;
